@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="7px"
+    android:background="#fff80f0f">
+    <LinearLayout
+        android:orientation="vertical"
+        android:minWidth="25px"
+        android:minHeight="25px"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/linearLayout1"
+        android:background="#ff3e2723"
+        android:layout_margin="10px">
+        <TextView
+            android:text="Main Page"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:layout_width="match_parent"
+            android:layout_height="73.0dp"
+            android:id="@+id/textView1"
+            android:layout_margin="20px"
+            android:gravity="center"
+            android:background="#ffffcc80" />
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="101.0dp"
+            android:id="@+id/name"
+            android:hint="Enter your Name"
+            android:background="#fffcf8f8"
+            android:textSize="30px"
+            android:textStyle="bold"
+            android:textColor="#ff004d40"
+            android:padding="10px"
+            android:layout_margin="30px" />
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:minWidth="25px"
+            android:minHeight="25px"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/linearLayout2"
+            android:gravity="center"
+            android:layout_margin="15px"
+            android:padding="15px"
+            android:background="#ff4527a0">
+            <Button
+                android:layout_width="136.0dp"
+                android:layout_height="83.5dp"
+                android:text="@android:string/ok"
+                android:id="@+id/ok"
+                android:background="#ff1f485c"
+                android:padding="30px"
+                android:layout_margin="10px"
+                android:gravity="center"
+                android:textSize="30px"
+                android:textColor="#fff7f8fc" />
+            <Button
+                android:layout_width="142.5dp"
+                android:layout_height="83.5dp"
+                android:text="@android:string/cancel"
+                android:id="@+id/cancel"
+                android:background="#ff1f485c"
+                android:padding="30px"
+                android:layout_margin="10px"
+                android:gravity="center"
+                android:textSize="30px"
+                android:textColor="#fff7f8fc" />
+        </LinearLayout>
+        <TextView
+            android:text="Display a Name"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/show"
+            android:layout_margin="20px"
+            android:gravity="center"
+            android:background="#fff71a1a"
+            android:textSize="30px"
+            android:textStyle="bold" />
+        
+
+    </LinearLayout>
+
+</RelativeLayout>
